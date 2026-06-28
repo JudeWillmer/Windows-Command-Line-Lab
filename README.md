@@ -129,7 +129,7 @@ These commands are commonly used to refresh or verify a workstation's network co
 * **`ipconfig /renew`** requests a new IP address from the DHCP server. This is commonly used after moving desks, reconnecting to the network, or resolving DHCP-related connectivity issues.
 
 
-### Screenshot
+### 📸 Screenshot
 <img width="1918" height="841" alt="image" src="https://github.com/user-attachments/assets/0352802b-76d2-413e-b3b0-a05843d7e7c6" />
 <img width="1918" height="792" alt="image" src="https://github.com/user-attachments/assets/232e624a-01cb-4eb0-9f80-db5010184cb0" />
 
@@ -154,7 +154,7 @@ These commands help verify and troubleshoot DNS-related problems that can preven
 * **`nslookup`** queries a DNS server to verify that hostnames resolve to the correct IP addresses, helping determine whether a problem is caused by DNS or general network connectivity.
 
 
-### Screenshot
+### 📸 Screenshot
 <img width="1918" height="660" alt="image" src="https://github.com/user-attachments/assets/02759928-0e71-4049-80db-0364268b13cc" />
 
 ## 🌐 Connectivity Testing
@@ -178,5 +178,5 @@ These commands are used to verify network connectivity and identify where commun
 * **`tracert`** displays every network hop between the workstation and the destination, helping technicians identify where connectivity or latency issues occur along the route.
 
 
-### Screenshot
+### 📸 Screenshot
 <img width="1918" height="783" alt="image" src="https://github.com/user-attachments/assets/44a35332-33a0-4890-b6c1-0941fe0671d5" />
