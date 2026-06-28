@@ -122,10 +122,14 @@ An end user reports they are experiencing network connectivity issues after reco
 
 ### Purpose
 
-* Display the current IP configuration.
-* Release the existing DHCP lease.
-* Request a new IP address from the DHCP server.
-* Verify successful network configuration.
+These commands are commonly used to refresh or verify a workstation's network configuration when troubleshooting connectivity issues.
+
+* **`ipconfig`** displays the workstation's current IP configuration, allowing the technician to quickly verify the assigned IP address, subnet mask, and default gateway.
+
+* **`ipconfig /release`** releases the current DHCP-assigned IP address, disconnecting the workstation from the network so a new address can be requested.
+
+* **`ipconfig /renew`** requests a new IP address from the DHCP server. This is commonly used after moving desks, reconnecting to the network, or resolving DHCP-related connectivity issues.
+
 
 ### Screenshot
 <img width="1918" height="841" alt="image" src="https://github.com/user-attachments/assets/0352802b-76d2-413e-b3b0-a05843d7e7c6" />
@@ -146,9 +150,12 @@ A user reports they cannot access a company website or internal resource by host
 
 ### Purpose
 
-* Clear the local DNS resolver cache.
-* Verify DNS name resolution.
-* Confirm the workstation is communicating with the correct DNS server.
+These commands help verify and troubleshoot DNS-related problems that can prevent users from accessing websites or internal resources.
+
+* **`ipconfig /flushdns`** clears the local DNS resolver cache, removing outdated or incorrect DNS records that may cause name resolution issues.
+
+* **`nslookup`** queries a DNS server to verify that hostnames resolve to the correct IP addresses, helping determine whether a problem is caused by DNS or general network connectivity.
+
 
 ### Screenshot
 <img width="1918" height="660" alt="image" src="https://github.com/user-attachments/assets/02759928-0e71-4049-80db-0364268b13cc" />
@@ -168,10 +175,12 @@ A user reports they cannot connect to a network resource. The technician tests b
 
 ### Purpose
 
-* Verify network connectivity.
-* Test communication with remote hosts.
-* Identify routing or latency issues.
-* Confirm end-to-end network communication.
+These commands are used to verify network connectivity and identify where communication problems occur.
+
+* **`ping`** tests whether another device or server is reachable across the network by sending ICMP Echo Requests and measuring the response time.
+
+* **`tracert`** displays every network hop between the workstation and the destination, helping technicians identify where connectivity or latency issues occur along the route.
+
 
 ### Screenshot
 <img width="1918" height="783" alt="image" src="https://github.com/user-attachments/assets/44a35332-33a0-4890-b6c1-0941fe0671d5" />
