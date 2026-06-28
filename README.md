@@ -151,8 +151,7 @@ A user reports they cannot access a company website or internal resource by host
 * Confirm the workstation is communicating with the correct DNS server.
 
 ### Screenshot
-
----
+<img width="1918" height="672" alt="image" src="https://github.com/user-attachments/assets/424a5711-c41b-4ae1-b70b-41c206e081d4" />
 
 ## 🌐 Connectivity Testing
 
