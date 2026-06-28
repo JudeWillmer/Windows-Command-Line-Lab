@@ -6,7 +6,7 @@ Practice gathering essential workstation, user, and network information before b
 
 ---
 
-## 📸 Screenshot 1 - Identify the Workstation
+## 🖥️ Workstation Identification
 
 ### Commands
 
@@ -35,7 +35,7 @@ These commands provide the essential information required before troubleshooting
 
 ---
 
-## 📸 Screenshot 2 - Gather System Information
+## 🖥️ System Information
 
 ### Command
 
@@ -70,7 +70,7 @@ This information helps technicians verify system specifications, identify outdat
 
 ---
 
-## 📸 Screenshot 3 - Review Running Processes
+## 🖥️ Running Processes
 
 ### Command
 
