@@ -213,7 +213,7 @@ These commands are used to view and manage local user accounts on a Windows work
 
 * **`net user`** is then used again to verify that the new user account has been successfully created.
 
-## Screenshot
+## 📸 Screenshot
 <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/97a904f7-e7b0-4d32-9d33-55690e008f7b" />
 
 ---
@@ -245,5 +245,5 @@ These commands are used to view and manage local security groups on a Windows wo
 
 * **`net localgroup Administrators`** is then used again to verify that the user has been successfully added to the Administrators group.
 
-## Screenshot
+## 📸 Screenshot
 <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/b36e90fb-419e-46e0-9c1d-4cae897ff229" />
