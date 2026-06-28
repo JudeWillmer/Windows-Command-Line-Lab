@@ -98,7 +98,7 @@ Reviewing processes first helps prevent unnecessary termination of critical Wind
 ## 📸 Screenshot
 <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/c4f36b25-1e8f-4c31-9000-4d3debb843e2" />
 
-# Lab 2 - Network Troubleshooting (Windows 10 Pro)
+# 🌐 Lab 2 - Network Troubleshooting (Windows 10 Pro)
 
 ## Objective
 
