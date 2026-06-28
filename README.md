@@ -95,6 +95,83 @@ This allows technicians to:
 
 Reviewing processes first helps prevent unnecessary termination of critical Windows services and supports informed troubleshooting decisions.
 
+# Lab 2 - Network Troubleshooting (Windows 10 Pro)
+
+## Objective
+
+Practice troubleshooting common network connectivity and DNS-related issues using built-in Windows Command Prompt tools. Learn when to use each command to diagnose network problems and verify workstation connectivity.
+
+---
+
+## 🌐 IP Configuration
+
+### Commands
+
+```cmd
+ipconfig
+ipconfig /release
+ipconfig /renew
+```
+
+### Scenario (IT Support)
+
+An end user reports they are experiencing network connectivity issues after reconnecting their workstation to the company network. The technician reviews the current IP configuration, releases the existing DHCP lease, and requests a new IP address to restore network connectivity.
+
+### Purpose
+
+* Display the current IP configuration.
+* Release the existing DHCP lease.
+* Request a new IP address from the DHCP server.
+* Verify successful network configuration.
+
+### Screenshot
+
+---
+
+## 🌐 DNS Troubleshooting
+
+### Commands
+
+```cmd
+ipconfig /flushdns
+nslookup
+```
+
+### Scenario (IT Support)
+
+A user reports they cannot access a company website or internal resource by hostname. The technician clears the local DNS cache and verifies that DNS records resolve correctly using the configured DNS server.
+
+### Purpose
+
+* Clear the local DNS resolver cache.
+* Verify DNS name resolution.
+* Confirm the workstation is communicating with the correct DNS server.
+
+### Screenshot
+
+---
+
+## 🌐 Connectivity Testing
+
+### Commands
+
+```cmd
+ping
+tracert
+```
+
+### Scenario (IT Support)
+
+A user reports they cannot connect to a network resource. The technician tests basic connectivity to a remote host and traces the network path to identify where communication may be failing.
+
+### Purpose
+
+* Verify network connectivity.
+* Test communication with remote hosts.
+* Identify routing or latency issues.
+* Confirm end-to-end network communication.
+
+### Screenshot
 ---
 
 ## 📸 Screenshot
