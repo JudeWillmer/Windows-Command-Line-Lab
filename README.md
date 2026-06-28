@@ -125,9 +125,7 @@ An end user reports they are experiencing network connectivity issues after reco
 These commands are commonly used to refresh or verify a workstation's network configuration when troubleshooting connectivity issues.
 
 * **`ipconfig`** displays the workstation's current IP configuration, allowing the technician to quickly verify the assigned IP address, subnet mask, and default gateway.
-
 * **`ipconfig /release`** releases the current DHCP-assigned IP address, disconnecting the workstation from the network so a new address can be requested.
-
 * **`ipconfig /renew`** requests a new IP address from the DHCP server. This is commonly used after moving desks, reconnecting to the network, or resolving DHCP-related connectivity issues.
 
 
@@ -153,7 +151,6 @@ A user reports they cannot access a company website or internal resource by host
 These commands help verify and troubleshoot DNS-related problems that can prevent users from accessing websites or internal resources.
 
 * **`ipconfig /flushdns`** clears the local DNS resolver cache, removing outdated or incorrect DNS records that may cause name resolution issues.
-
 * **`nslookup`** queries a DNS server to verify that hostnames resolve to the correct IP addresses, helping determine whether a problem is caused by DNS or general network connectivity.
 
 
@@ -178,7 +175,6 @@ A user reports they cannot connect to a network resource. The technician tests b
 These commands are used to verify network connectivity and identify where communication problems occur.
 
 * **`ping`** tests whether another device or server is reachable across the network by sending ICMP Echo Requests and measuring the response time.
-
 * **`tracert`** displays every network hop between the workstation and the destination, helping technicians identify where connectivity or latency issues occur along the route.
 
 
