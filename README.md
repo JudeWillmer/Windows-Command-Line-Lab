@@ -174,4 +174,4 @@ A user reports they cannot connect to a network resource. The technician tests b
 * Confirm end-to-end network communication.
 
 ### Screenshot
----
+<img width="1918" height="783" alt="image" src="https://github.com/user-attachments/assets/44a35332-33a0-4890-b6c1-0941fe0671d5" />
