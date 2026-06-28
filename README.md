@@ -31,7 +31,7 @@ These commands provide the essential information required before troubleshooting
 ---
 
 ## 📸 Screenshot
-<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/d3a24d09-543b-4e35-be97-9e647187c2c0" />
+<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/3540cb52-39d0-4e06-9c52-6a26c6c1bf26" />
 
 ---
 
