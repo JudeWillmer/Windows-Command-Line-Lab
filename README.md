@@ -180,3 +180,70 @@ These commands are used to verify network connectivity and identify where commun
 
 ### 📸 Screenshot
 <img width="1918" height="783" alt="image" src="https://github.com/user-attachments/assets/44a35332-33a0-4890-b6c1-0941fe0671d5" />
+
+# 👤 Lab 3 - Local User Administration (Windows 10 Pro)
+
+## Objective
+
+Practice managing local Windows user accounts and security groups using Command Prompt. These commands are commonly used by IT Support and Help Desk technicians to create user accounts, manage permissions, and verify administrative access on standalone or workgroup computers.
+
+---
+
+# 👤 Local User Management
+
+## Commands
+
+```cmd
+net user
+net user HelpDeskUser P@ssw0rd123 /add
+net user
+```
+
+## Scenario (IT Support)
+
+A technician is preparing a workstation for a new employee and needs to verify existing local user accounts before creating a temporary support account. After creating the account, the technician confirms that it has been successfully added to the workstation.
+
+## Purpose
+
+These commands are used to view and manage local user accounts on a Windows workstation.
+
+* **`net user`** displays all local user accounts, allowing the technician to verify existing users before making account changes.
+
+* **`net user HelpDeskUser P@ssw0rd123 /add`** creates a new local user account. This is commonly used when setting up a temporary support account, preparing a workstation for a new employee, or creating a local account for troubleshooting.
+
+* **`net user`** is then used again to verify that the new user account has been successfully created.
+
+## Screenshot
+<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/97a904f7-e7b0-4d32-9d33-55690e008f7b" />
+
+---
+
+# 👥 Local Group Management
+
+## Commands
+
+```cmd
+net localgroup
+net localgroup Administrators
+net localgroup Administrators HelpDeskUser /add
+net localgroup Administrators
+```
+
+## Scenario (IT Support)
+
+A technician has created a local support account and now needs to grant it administrative privileges so software installation and advanced troubleshooting can be performed. After updating the user's permissions, the technician verifies that the account has been successfully added to the local Administrators group.
+
+## Purpose
+
+These commands are used to view and manage local security groups on a Windows workstation.
+
+* **`net localgroup`** displays all local security groups available on the workstation, allowing the technician to identify groups used for permissions and administrative access.
+
+* **`net localgroup Administrators`** displays the current members of the local Administrators group, helping verify which users have administrative privileges.
+
+* **`net localgroup Administrators HelpDeskUser /add`** adds the specified user to the local Administrators group. This is commonly performed when granting temporary or permanent administrative rights to support staff or authorized users.
+
+* **`net localgroup Administrators`** is then used again to verify that the user has been successfully added to the Administrators group.
+
+## Screenshot
+<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/b36e90fb-419e-46e0-9c1d-4cae897ff229" />
