@@ -95,6 +95,9 @@ This allows technicians to:
 
 Reviewing processes first helps prevent unnecessary termination of critical Windows services and supports informed troubleshooting decisions.
 
+## 📸 Screenshot
+<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/c4f36b25-1e8f-4c31-9000-4d3debb843e2" />
+
 # Lab 2 - Network Troubleshooting (Windows 10 Pro)
 
 ## Objective
@@ -173,6 +176,3 @@ A user reports they cannot connect to a network resource. The technician tests b
 
 ### Screenshot
 ---
-
-## 📸 Screenshot
-<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/c4f36b25-1e8f-4c31-9000-4d3debb843e2" />
