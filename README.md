@@ -128,8 +128,8 @@ An end user reports they are experiencing network connectivity issues after reco
 * Verify successful network configuration.
 
 ### Screenshot
-
----
+<img width="1918" height="841" alt="image" src="https://github.com/user-attachments/assets/0352802b-76d2-413e-b3b0-a05843d7e7c6" />
+<img width="1918" height="792" alt="image" src="https://github.com/user-attachments/assets/232e624a-01cb-4eb0-9f80-db5010184cb0" />
 
 ## 🌐 DNS Troubleshooting
 
