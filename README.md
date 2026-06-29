@@ -247,3 +247,39 @@ These commands are used to view and manage local security groups on a Windows wo
 
 ## 📸 Screenshot
 <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/b36e90fb-419e-46e0-9c1d-4cae897ff229" />
+
+# 🛡️ Lab 4 - Group Policy Troubleshooting (Windows 10 Pro & Windows Server 2022)
+
+## Objective
+
+Practice refreshing and verifying Group Policy using Command Prompt. These commands are commonly used by IT Support technicians to apply newly configured Group Policies and confirm they have been successfully applied to a domain-joined workstation.
+
+---
+
+# 🛡️ Group Policy Management
+
+## Commands
+
+```cmd
+gpupdate /force
+gpresult /r
+```
+
+## Scenario (IT Support)
+
+A technician has recently configured or modified a Group Policy Object (GPO) within the Active Directory domain. Rather than waiting for the automatic Group Policy refresh interval, the technician forces an immediate policy update on the user's workstation and verifies that the latest policies have been successfully applied.
+
+## Purpose
+
+These commands are used to refresh and verify Group Policy settings on a domain-joined Windows workstation.
+
+* **`gpupdate /force`** contacts the Domain Controller and immediately downloads and applies the latest Computer and User Group Policies. This is commonly performed after creating or modifying a Group Policy Object (GPO) to ensure the workstation receives the latest configuration without waiting for the automatic refresh interval.
+
+* **`gpresult /r`** displays the Resultant Set of Policy (RSoP), showing the Group Policies currently applied to the workstation and logged-on user. This allows technicians to verify successful policy application, identify the Domain Controller used, confirm domain membership, and troubleshoot Group Policy issues.
+
+## Result
+
+Both commands executed successfully. The workstation refreshed its Group Policy settings without errors, and the Resultant Set of Policy confirmed that the workstation was receiving and applying the expected Group Policy Objects from the domain.
+
+## 📸 Screenshot
+<img width="1918" height="743" alt="image" src="https://github.com/user-attachments/assets/d7069aab-51f4-4873-b169-71fc7a9c985f" />
