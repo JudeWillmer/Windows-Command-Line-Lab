@@ -361,6 +361,6 @@ These commands help technicians verify the health of the file system and investi
 
 The workstation successfully displayed the contents of the current directory and completed a disk check without errors. These commands demonstrate how technicians verify file locations and assess the health of the Windows file system during routine troubleshooting.
 
-## Screenshot
+## 📸 Screenshot
 - **Screenshot 1:** `dir`
 - **Screenshot 2:** `chkdsk`
