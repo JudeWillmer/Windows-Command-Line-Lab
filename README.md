@@ -283,3 +283,49 @@ Both commands executed successfully. The workstation refreshed its Group Policy 
 
 ## 📸 Screenshot
 <img width="1918" height="743" alt="image" src="https://github.com/user-attachments/assets/d7069aab-51f4-4873-b169-71fc7a9c985f" />
+
+# 🔧 Lab 5 - Service Management (Windows 10 Pro)
+
+## Objective
+
+Practice identifying and managing Windows services using Command Prompt. These commands are commonly used by IT Support technicians to verify service status, troubleshoot applications, and restart services when resolving workstation issues.
+
+---
+
+# 🔧 Windows Service Management
+
+## Commands
+
+```cmd
+sc query
+net start
+net stop spooler
+net start spooler
+```
+
+## Scenario (IT Support)
+
+A user reports they are unable to print documents. The technician first reviews the currently running Windows services before restarting the Print Spooler service to restore printing functionality.
+
+## Purpose
+
+These commands are commonly used to verify and manage Windows services while troubleshooting workstation issues.
+
+* **`sc query`** displays the status of Windows services, allowing technicians to determine whether a service is running, stopped, or experiencing problems.
+
+* **`net start`** lists all currently running Windows services, helping technicians quickly verify that essential services are operational.
+
+* **`net stop spooler`** stops the Print Spooler service. This is commonly performed when print jobs become stuck or printers stop responding.
+
+* **`net start spooler`** starts the Print Spooler service again, restoring the printing service after maintenance or troubleshooting.
+
+## Result
+
+The Windows services were successfully queried, and the Print Spooler service was stopped and restarted without errors. This confirms that the technician can manage Windows services using the Command Prompt and restore common workstation services when troubleshooting.
+
+## 📸 Screenshot
+<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/4400739f-f1cb-4ee8-bfba-e82e770c1071" />
+<img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/d15da56f-19a0-4fbf-ad0a-1724690a7d63" />
+<img width="1918" height="621" alt="image" src="https://github.com/user-attachments/assets/0914f632-023c-4488-b59c-4ffad7b7a190" />
+
+
