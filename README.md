@@ -20,13 +20,13 @@ ipconfig /all
 
 An end user contacts the IT Help Desk reporting that they cannot access company resources. Before making any changes, the technician gathers basic workstation and network information to verify the correct device, confirm the logged-in user, and review the workstation's network configuration.
 
-### Purpose
+## Purpose
 
 These commands provide the essential information required before troubleshooting begins.
 
-- **hostname** identifies the workstation name, allowing the technician to verify they are connected to the correct computer and locate it within Active Directory, Microsoft Intune, or an asset inventory.
-- **whoami** confirms which user is currently logged into the workstation, helping verify the correct user profile is being investigated.
-- **ipconfig /all** displays detailed network configuration, including the IP address, subnet mask, default gateway, DNS servers, DHCP status, MAC address, and domain information. This helps identify network configuration issues before applying any fixes.
+- **`hostname`** identifies the workstation name, allowing the technician to verify they are connected to the correct computer and locate it within Active Directory, Microsoft Intune, or an asset inventory.
+- **`whoami`** confirms which user is currently logged into the workstation, helping verify the correct user profile is being investigated.
+- **`ipconfig /all`** displays detailed network configuration, including the IP address, subnet mask, default gateway, DNS servers, DHCP status, MAC address, and domain information. This helps identify network configuration issues before applying any fixes.
 
 ---
 
