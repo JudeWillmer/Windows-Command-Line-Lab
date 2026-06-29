@@ -328,39 +328,42 @@ The Windows services were successfully queried, and the Print Spooler service wa
 <img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/d15da56f-19a0-4fbf-ad0a-1724690a7d63" />
 <img width="1918" height="621" alt="image" src="https://github.com/user-attachments/assets/0914f632-023c-4488-b59c-4ffad7b7a190" />
 
-# 💾 Lab 6 - Disk & File System Management (Windows 10 Pro)
+# 💾 Lab 6 - Disk & System File Management (Windows 10 Pro)
 
 ## Objective
 
-Practice checking disk usage and verifying the integrity of the file system using Command Prompt. These commands are commonly used by IT Support technicians to diagnose storage issues, repair file system errors, and verify available disk space.
+Practice verifying file locations, checking disk health, and scanning Windows system files using Command Prompt. These commands are commonly used by IT Support technicians to diagnose storage issues, repair Windows system files, and verify the overall health of a workstation.
 
 ---
 
-# 💾 Disk & File System Management
+# 💾 Disk & System File Management
 
 ## Commands
 
 ```cmd
 dir
 chkdsk
+sfc /scannow
 ```
 
 ## Scenario (IT Support)
 
-A user reports that files are missing or the workstation has become unusually slow. Before performing further troubleshooting, the technician verifies the contents of the drive and checks the file system for errors that may affect system performance or data accessibility.
+A user reports missing files, slow performance, or Windows operating system errors. Before escalating the issue, the technician verifies the contents of the current directory, checks the integrity of the file system, and scans protected Windows system files for corruption.
 
 ## Purpose
 
-These commands help technicians verify the health of the file system and investigate storage-related issues.
+These commands help technicians verify file locations, assess disk health, and repair Windows system files.
 
 - **`dir`** displays the contents of the current directory, allowing technicians to verify files and folders, confirm file locations, and ensure required files are present.
 
 - **`chkdsk`** scans the file system for logical errors and reports the health of the disk. It helps identify file system corruption, storage issues, and potential problems that may affect workstation performance or file accessibility.
 
+- **`sfc /scannow`** scans protected Windows system files for corruption and automatically repairs any issues it detects. Technicians commonly use this command when troubleshooting Windows instability, missing system files, or operating system errors.
+
 ## Result
 
-The workstation successfully displayed the contents of the current directory and completed a disk check without errors. These commands demonstrate how technicians verify file locations and assess the health of the Windows file system during routine troubleshooting.
+The workstation successfully displayed the contents of the current directory and completed a disk health check without detecting file system errors. A System File Checker (SFC) scan also completed successfully and repaired corrupted Windows system files, demonstrating the use of built-in Windows recovery tools during workstation troubleshooting.
 
 ## 📸 Screenshot
-- **Screenshot 1:** `dir`
-- **Screenshot 2:** `chkdsk`
+<img width="1918" height="935" alt="image" src="https://github.com/user-attachments/assets/53d90057-7c7e-4b2b-ab19-20000e038c4c" />
+<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/94eaffae-7aeb-4d29-9b56-7d51cbdcdccf" />
